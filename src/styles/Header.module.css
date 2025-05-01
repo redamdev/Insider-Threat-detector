@@ -1,0 +1,39 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.icon {
+  width: 15%;
+  height: auto;
+}
+
+.downloadButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.downloadButton:hover {
+  background-color: #0056b3;
+}
+
+.downloadIcon {
+  width: 16px;
+  height: 16px;
+}
+

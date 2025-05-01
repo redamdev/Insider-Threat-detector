@@ -1,0 +1,127 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.chartsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.chartCard {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  min-width: 300px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.statCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.5rem 2.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+}
+
+.statValue {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.threatIndicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.threatStatus {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.high {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.low {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.button:hover {
+  background-color: #007BFF;
+}
+
+.button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.noData {
+  text-align: center;
+  color: #6b7280;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.error {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  max-width: 100%;
+  width: 500px;
+}
