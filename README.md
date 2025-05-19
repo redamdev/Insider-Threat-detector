@@ -1,6 +1,6 @@
 # Insider Threat Tweet Analyzer Web App
 
-The MVP utilizes a combination of well-known hugging face piplines for NLP analysis and Qwen 2.5 (3B parameters) for LLM analysis. 
+The MVP utilizes a combination of well-known hugging face piplines for NLP analysis and GPT for LLM analysis. 
 
 Feel free to test the MVP with the provided .xlsx file. Do not use the large .xlsx files given by the POC, the provided file (in the test_xlsx directory) contains only ten tweets vs the 50,000+ in the given datasets. You may add to the template of tweets (just a copy of POC provided format with less tweets). The final analysis will be returned as a summary through data visualization, but also an excel is made available for download.
 
